@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	display: flex;
+	margin: 50px 150px;
+}
+
+body{
+	background-color: #6a5656d1;
+}
+
+.left_side{
+	background-color: #323B4C;
+	width: 30%;
+}
+
+.left_side > div{
+	margin: 20px;
+	color: white;
+}
+
+.img_space_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.contact_space > div{
+	margin: 10px 0;
+}
+
+.email_space_a{
+	color: #ffffff;
+}
+
+.right_side{
+	background-color: #ffffff;
+	width: 70%;
+}
+
+.right_side > div{
+	margin: 20px;
+}
+
+.about_me_space > p{
+	padding: 10px 100px 0 0;
+}
+
+.project_link{
+	color: #000000;
+}
